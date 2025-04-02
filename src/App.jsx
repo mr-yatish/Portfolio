@@ -102,7 +102,7 @@ function App() {
 
   return (
     <div
-      className='relative w-full h-full overflow-hidden bg-[url(src/assets/images/bg-main.jpg)] bg-cover bg-no-repeat'
+      className='relative w-full h-full overflow-hidden bg-[url(https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)] bg-cover bg-no-repeat'
       onMouseDown={handleMouseDown}
       onMouseUp={handleMouseUp}
       onMouseMove={handleMouseMove}
