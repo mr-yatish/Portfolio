@@ -223,7 +223,7 @@ function App() {
     if (window.innerWidth > 768) {
       gsap.to(".workHead", {
         y: 400,
-        opacity:0,
+        opacity: 0,
         scrollTrigger: {
           trigger: "#workSection",
           start: "top center",
@@ -277,7 +277,7 @@ function App() {
           onMouseMove={handleMouseMove}
           onClick={handleClick}
         >
-          <div className="sticky top-0 flex w-full h-40 justify-between items-center px-30 max-md:px-5 head z-10">
+          <div className=" flex w-full h-40 justify-between items-center px-30 max-md:px-5 head z-10">
             <h1
               className={`text-white text-4xl max-md:text-3xl font-bold tracking-wider cursor-pointer transition-colors duration-300 
                 }`}
@@ -422,7 +422,7 @@ function App() {
               </div>
               {/* Cards */}
               <div className=" w-1/2 max-lg:w-full h-max flex flex-col gap-20 max-md:gap-8  ">
-              <div className="w-full h-96 flex flex-col cards2  ">
+                <div className="w-full h-96 flex flex-col cards2  ">
                   <div className="w-full h-[90%] bg-red-200">
                     <img
                       src="public/images/Project1.png"
@@ -653,6 +653,21 @@ function App() {
                   </div>
                 </div>
               </div>
+            </div>
+            {/* Footer */}
+            <div className="w-full  h-[40vh] max-md:h-max  z-10 px-30 py-14  max-md:px-5 flex flex-col justify-between gap-10">
+              <div className="line border-b-[1px] border-white mb-8"></div>
+              <h4 className="text-white text-5xl font-bold tracking-wider relative w-max  h-max p-0">YP <span className=" absolute top-1/2 -translate-y-1/2 left-0  bg-black line w-full h-1" ></span></h4>
+              <nav>
+                <ul className="capitalize flex gap-6 text-white text-lg max-md:flex-col">
+                  <li>Home</li>
+                  <li>Work</li>
+                  <li>Services</li>
+                  <li>About Us</li>
+                  <li>Contact</li>
+                </ul>
+              </nav>
+              <h5 className="text-white text-lg flex justify-between max-md:flex-wrap max-md:gap-2  ">© Yatish Prajapat 2025 - Present <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#328EA9] to-[#016c87]">Devloped by Yatish Prajapat</span></h5>
             </div>
           </div>
         </div>
